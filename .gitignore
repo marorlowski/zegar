@@ -1,0 +1,7 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea/inspectionProfiles/
+src/test/
+target/generated-sources/
+target/maven-archiver/
+target/maven-status/
+target/zegar-1.0-SNAPSHOT.jar
