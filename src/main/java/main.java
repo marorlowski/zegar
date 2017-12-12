@@ -51,6 +51,7 @@ public class main {
             long godziny = (diff / (1000 * 60 * 60)) % 24;
             //long dni = (diff/(1000*60*60*24))%7;
             String time = String.format(godziny + " h " + minuty + " m " + sekundy + " s");
+            textLabel.setFont(new Font("Times New Roman", Font.BOLD, 30));
             textLabel.setText(time);
             TimeUnit.SECONDS.sleep(1); //opóźnienie o 1 sekundę
         }
